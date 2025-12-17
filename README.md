@@ -1,55 +1,49 @@
 ﻿[//]: # (Author: Ashraf Morningstar | GitHub: https://github.com/AshrafMorningstar)
-# Collaborative CV Studio
+
+<div align="center">
+
+# Collaborative CV Studio (Flagship)
+
+**Google Docs for Resumes. Real-time. Conflict-free.**
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/collaborative-cv-studio)
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-ðŸš€ Real-time collaborative CV editor using CRDTs.
+</div>
 
-## ðŸ” Why this project exists
+## ðŸ“– Overview
+A complex distributed system allowing multiple users to edit a CV simultaneously. It uses Conflict-free Replicated Data Types (CRDTs) to ensure data consistency without locking.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/collaborative-cv-studio)
-A production-grade implementation demonstrating modern web engineering practices, focusing on performance, accessibility, and scalability.
+## âœ¨ Key Features
+- **Real-Time Sync:** Millisecond latency updates.
+- **Presence:** See other cursors and selections.
+- **Version History:** Time-travel debugging.
+- **PDF Export:** Print-perfect rendering.
 
-## âœ¨ Features
+## ðŸ› ï¸ Technical Stack
+**React, Yjs (CRDT), WebSockets, Node.js**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/collaborative-cv-studio)
-- ðŸš€ Production-ready architecture
-- ðŸŽ¨ Premium UI/UX design system
-- â™¿ WCAG AA Accessible
-- ðŸ“± Fully Responsive
-- âš¡ Optimized Performance
+## ðŸš€ Getting Started
 
-## ðŸ§  Architecture
+### Prerequisites
+- Node.js 18+
+- npm or yarn
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/collaborative-cv-studio)
-Built with clean separation of concerns and modern design patterns.
-
-## ðŸš€ Live Demo
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/collaborative-cv-studio)
-[Deployment Link Placeholder]
-
-## ðŸ“¦ Installation
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/collaborative-cv-studio)
-```bash
+### Installation
+`ash
+git clone https://github.com/ashraf-morningstar-labs/collaborative-cv-studio.git
+cd collaborative-cv-studio
 npm install
 npm run dev
-```
+`
 
-## ðŸ›  Tech Stack
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/collaborative-cv-studio)
-React â€¢ Yjs â€¢ WebSockets â€¢ Node.js
-
-## ðŸ“ˆ SEO Keywords
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/collaborative-cv-studio)
-real time editor, crdt, collaborative resume
+## ðŸ¤ Contribution
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## ðŸ“„ License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-morningstar-labs/collaborative-cv-studio)
-MIT
-
-
+---
+<div align="center">
+  <b>Built with â¤ï¸ by <a href="https://github.com/AshrafMorningstar">Ashraf Morningstar</a></b>
+</div>
