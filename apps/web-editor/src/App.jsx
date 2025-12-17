@@ -1,3 +1,7 @@
+﻿/**
+ * Author: Ashraf Morningstar
+ * GitHub: https://github.com/AshrafMorningstar
+ */
 import React, { useEffect, useState, useRef } from 'react';
 import * as Y from 'yjs';
 import { WebsocketProvider } from 'y-websocket';
@@ -90,7 +94,7 @@ export default function App() {
                 {sections.map((sec, i) => (
                     <li key={i} className="flex justify-between p-2 bg-gray-50 rounded">
                         {sec}
-                        <button onClick={() => window.moveSectionUp(i)} className="text-sm border px-1">↑</button>
+                        <button onClick={() => window.moveSectionUp(i)} className="text-sm border px-1">â†‘</button>
                     </li>
                 ))}
             </ul>

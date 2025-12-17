@@ -1,3 +1,7 @@
+﻿/**
+ * Author: Ashraf Morningstar
+ * GitHub: https://github.com/AshrafMorningstar
+ */
 const { setupWSConnection } = require('y-websocket/bin/utils');
 const WebSocket = require('ws');
 const http = require('http');
